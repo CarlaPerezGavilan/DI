@@ -18,7 +18,7 @@ header{
 }
 
 .column{
-
+    flex: 1;
 }
 
 .row{
@@ -38,12 +38,69 @@ header li{
 }
 
 .content{
-    background: url("../Images/office.jpg")-200px no-repeat;
+    display:flex;
+    background:  url("../Images/office.jpg")  no-repeat;
     min-height: 400px;
+    opacity:0.99; 
+    text-align: center;
+    padding-left:10px;
+    padding-top: 10px;
+    background-size: cover;
 }
 
-.head{
+
+.subscribe{
+    background-color: #31639c;
+    display: flex;
+    font-size: 20px;
+    
+
+}
+.subscribe .container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.subscribe form{
+    flex-direction: row;
+    margin-top: 15px;
+
+}
+
+.subscribe input[type= "email"]{
+    height: 30px;
+    width: 200px;
+    padding-right:  30px;
+
+}
+.subscribe button{
+    height: 37px;
+    background: #0e9aac;
+    border:0;
+    color: white;
+}
+
+.services{
+    color: black;
     text-align: center;
-    padding-left:15px;
-    padding-top: 110px;
+}
+
+.services  img{
+    height: 100px;
+    margin-top: 10px;
+}
+
+.services .column{
+    text-align: center;
+}
+
+footer{
+    text-align: center;
+    background-color:#31639c;
+    padding: 15px;
+}
+
+.content_opacity{
+    text-shadow: 2px 1px black;
+    font-size: 20px;
 }
