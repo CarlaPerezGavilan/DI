@@ -1,0 +1,24 @@
+body{
+  margin:0;
+}
+.backgroundImage {
+  background-image: url(https://marvel-live.freetls.fastly.net/canvas/2019/3/fe0f120117574a2e9c6496b2315b36f1?quality=95&fake=.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  margin: 0;
+  height: 100%;
+}
+
+.whiteSquare{
+  border: 5px solid #FFFFFF;
+  padding-top: 60px;
+  margin: 10px;
+  height: 420px;
+}
+
+.version-juncos{
+  background-image: url(https://marvel-live.freetls.fastly.net/canvas/2019/3/fe0f120117574a2e9c6496b2315b36f1?quality=95&fake=.png) no-repeat;
+  background-size: 1407px;
+  height: 915px;
+  display: flex;
+}
